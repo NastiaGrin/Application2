@@ -8,8 +8,11 @@ public class QuestionFounder {
         for (Sentence sentence : sentences) {
             if (sentence.getPunctuationMark().getSymbol() == '?') {
                 questions.add(sentence);
-                System.out.println(sentence);
             }
+        }
+        if (questions.isEmpty()) {
+            System.out.println("There isn't questions");
+            System.exit(0);
         }
     }
 }

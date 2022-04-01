@@ -32,7 +32,6 @@ public class ReadTextFromFile {
                         } else {
                             sentences.add(partOfSentence.uniteWords(FromStringToSentence.change(data.substring(beginSentence, i),
                                     new PunctuationMark(data.charAt(i)))));
-                            System.out.println(partOfSentence.getPunctuationMark().getSymbol());
                             partOfSentence = null;
                         }
                         beginSentence = i + 1;
