@@ -1,8 +1,8 @@
-package textparts;
+package com.epam.nhryneuskaya.task2.textparts;
 
 public class PunctuationMark {
 
-    public char symbol;
+    private final char symbol;
 
     public PunctuationMark(char symbol) {
         this.symbol = symbol;

@@ -1,8 +1,8 @@
-package textparts;
+package com.epam.nhryneuskaya.task2.textparts;
 
 public class Word {
 
-    protected String letters;
+    private final String letters;
 
     public Word(String letters) {
         this.letters = letters;
